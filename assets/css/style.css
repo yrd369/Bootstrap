@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --primary: #edc7b7;
+    --secondary: #eee2dc;
+    --heading-text-color: #ac3b61;
+    --text-color: #123c69;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header-section */
+.bg-light {
+    background-color: var(--secondary) !important;
+}
+
+.navbar-brand {
+    color: var(--heading-text-color) !important;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: var(--heading-text-color) !important;
+}
+
+.btn-outline-success {
+    color: #123c69 !important;
+    border: 1px solid #ac3b61;
+    background-color: #edc7b7;
+}
+
+.btn-outline-success:hover {
+    color: #fff !important;
+    background-color: var(--heading-text-color);
+}
+
+.Hero-section {
+    background-color: var(--primary);
+    color: #123c69;
+}
+
+.name-dark{
+    color: #ac3b61 !important;
+}
+
+.lead {
+    color: gray;
+}
+.lead-1{
+    color: #123c69;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: var(--heading-text-color) !important;
+    color: #fff;
+    border: none;
+}
+.btn-primary:hover {
+    color: var(--text-color);
+}
